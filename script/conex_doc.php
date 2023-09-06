@@ -1,6 +1,6 @@
 <?php
 
-$con_doc=mysql_connect("150.1.88.224","usccentera","alcc2378001");
+$con_doc=mysql_connect("HOST","USER","PASS");
 mysql_set_charset('utf8', $con_doc);
 	if(!$con_doc)
         echo"ERROR_CONEXION_BD";
